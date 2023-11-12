@@ -1,0 +1,53 @@
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #3f0945;
+    --first-color-light: #AFA5D9;
+    --white-color: #F7F6FB;
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100;
+    --white:#fff;
+}
+
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IranSans";
+}
+
+@font-face {
+    font-family: "IranSans";
+    src: url("IRANSans 4.2/Fonts/WebFonts/fonts/eot/IRANSansWeb.eot") format("eot");
+    src: url("IRANSans 4.2/Fonts/WebFonts/fonts/ttf/IRANSansWeb.ttf") format("ttf");
+    src: url("IRANSans 4.2/Fonts/WebFonts/fonts/woff/IRANSansWeb.woff") format("woff");
+    src: url("IRANSans 4.2/Fonts/WebFonts/fonts/woff2/IRANSansWeb.woff2") format("woff2");
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box
+}
+
+/* form */
+form{
+    /* background-color: #3c1053; */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    background: linear-gradient(to right, #3c1053, #ad5389);
+}
+
+.form-text{
+   color: red !important;
+}
+/* form input{
+    width: 50% !important;
+} */
+.btn-primary{
+    border: 1px solid #fff !important;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: transparent !important;
+}
